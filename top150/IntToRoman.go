@@ -1,10 +1,7 @@
-package main
+package top150
 
-import "fmt"
-
-func main() {
-	fmt.Println(IntToRoman(3))
-}
+// https://leetcode.com/problems/integer-to-roman/description/?envType=study-plan-v2&envId=top-interview-150
+// 暴力窮舉法: 由於減號的判斷較麻煩再加上題目限制較小 <=3999，列出所有減號的再來處理
 
 func IntToRoman(num int) string {
 	s := ""
